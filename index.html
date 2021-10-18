@@ -1,12 +1,5 @@
-<!DOCTYPE html> 
-<html> 
-  <head> 
-    <meta charset="UTF-8"> 
-    <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'> 
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script> 
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> 
-  </head> 
-  <body>
-    <model-viewer src="https://electori.co.jp/tcelectronic/ar_test/TC mini Pedals SKYSURFER MINI.gltf" ios-src="https://electori.co.jp/tcelectronic/ar_test/TC mini Pedals SKYSURFER MINI.usdz" controls auto-rotate ar></model-viewer> 
-  </body> 
-</html> 
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="assets/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
