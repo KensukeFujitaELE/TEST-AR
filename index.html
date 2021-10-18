@@ -2,10 +2,28 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>model-viewer demo</title>
+    <title>ModerlViewerを使ったWebARページ</title>
   </head>
   <body>
-    <script type="module" src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer.js"></script>
-    <model-viewer src="path/modelName.glb" ar></model-viewer>
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+    
+  </script>
+    
+    <model-viewer  
+    ar
+    alt="Leoモデル"
+    src="https://electori.co.jp/tcelectronic/ar_test/TC%20mini%20Pedals%20SKYSURFER%20MINI.gltf" 
+    ios-src="https://electori.co.jp/tcelectronic/ar_test/TC%20mini%20Pedals%20SKYSURFER%20MINI.usdz" 
+    style="width:800px;height:1000px;"                  
+                  
+                  background-color="#70BCD1"
+                  shadow-intensity="0.7"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap>
+                  
+    
+    </model-viewer>
   </body>
 </html>
